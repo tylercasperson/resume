@@ -1,0 +1,42 @@
+body{
+    display: flex;
+}
+.header{
+    display: block;
+}
+.name{
+    justify-content: center;
+    font-weight: bold;
+    text-align: center;
+}
+.contactInfo{
+    justify-content: space-evenly;
+    margin-left: auto;
+}
+.summary{
+    font-size: 16pt;
+    text-align: center;
+}
+.skillList{
+    width: 350px;
+}
+.skills, .education{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    border: white;
+}
+.company{
+    font-weight: bold;
+}
+.position, .stay{
+    display: inline;
+    font-style: italic;
+}
+.stay{
+    font-weight: bold;
+    border: none;
+}
+.list-group-item{
+    border-style: none;
+}
